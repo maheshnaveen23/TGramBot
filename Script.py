@@ -240,10 +240,10 @@ Nᴀᴍᴇ - {}"""
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 Rᴇᴛʀᴏ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/Retrov2">Aᴘᴘʟʏ</a>       🔅
+🔅 Rᴇᴛʀᴏ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/Retrov2">Aᴘᴘʟʏ</a>        🔅
 ╰─────── • ◆ • ───────╯
 ========= • ✠ • =========
-▫️ Eɴᴊᴏʏ ᴛʜᴇ Cɪɴᴇᴍᴀꜱ Aɴᴅ Sᴇʀɪᴇꜱ..
+▫️ Eɴᴊᴏʏ ᴛʜᴇ Fɪʟᴍꜱ Aɴᴅ Sᴇʀɪᴇꜱ..
 ▫️ Bᴇғᴏʀᴇ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Aɴʏ Fɪʟᴇs 
   Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏs..
 ========= • ✠ • =========</b>"""
@@ -254,8 +254,8 @@ IMDb Data:</b>
 
 🏷 <b>Tɪᴛʟᴇ:</b> <a href={url}>{title}</a>
 🎭 <b>Gᴇɴʀᴇs:</b> </code>{genres}</code> 
-📆 <b>Yᴇᴀʀ:</b> <a href=</code>{url}/releaseinfo>{year}</code></a>
-🌟 <b>Rᴀᴛɪɴɢ:</b> <a href=</code>{url}/ratings>{rating}</a> / 10</code>
+📆 <b>Yᴇᴀʀ:</b> <a href={url}/releaseinfo>{year}</a>
+🌟 <b>Rᴀᴛɪɴɢ:</b> <a href={url}/ratings>{rating}</a> / 10
 🎙️ <b>Lᴀɴɢᴜᴀɢᴇs:</b> <code>{languages}</code>
 🎭 <b>Cᴀsᴛ:</b> <code>{cast}</code>       
 🌐 <b>Cᴏᴜɴᴛʀɪᴇs:</b> <code>{countries}</code>
