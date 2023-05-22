@@ -252,14 +252,14 @@ Pʟᴇᴀꜱᴇ Cʜᴇᴄᴋ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oɴ Gᴏᴏɢʟᴇ Oʀ I�
 <b>Query: <code>{query}</code>
 IMDb Data:</b>
 
-○ <b>Title:</b> <code>{title}</code>
-○ <b>Genres:</b> <code>{genres}</code> 
-○ <b>Released on:</b> <code>{year}</code> 
-○ <b>Ratings:</b> <code>{rating} / 10</code> 
-○ <b>Language:</b> <code>{languages}</code>
-○ <b>Cast:</b> <code>{cast}</code>       
+🏷 <b>Title:</b> <code>{title}</code>
+🎭 <b>Genres:</b> <code>{genres}</code> 
+📆 <b>Released on:</b> <code>{year}</code> 
+🌟 <b>Ratings:</b> <code>{rating} / 10</code> 
+🎙️ <b>Language:</b> <code>{languages}</code>
+🎭 <b>Cast:</b> <code>{cast}</code>       
 
-○ <b>Plot:</b> <code>{plot}</code>
+📜 <b>Plot:</b> <code>{plot}</code>
 
 🗣 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆: <b><code>{msg.from_user.mention}</code></b>"""
     
