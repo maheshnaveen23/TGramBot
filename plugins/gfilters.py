@@ -131,10 +131,10 @@ async def deletegfilter(client, message):
 @Client.on_message(filters.command('delallg') & filters.user(ADMINS))
 async def delallgfilters(client, message):
     await message.reply_text(
-            f"Do you want to continue??",
+            f"Do you want to continue??", 
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(text="YES",callback_data="gfiltersdeleteallconfirm")],
-                [InlineKeyboardButton(text="CANCEL",callback_data="gfiltersdeleteallcancel")]
+                [InlineKeyboardButton(text="Yᴇs",callback_data="gfiltersdeleteallconfirm")],
+                [InlineKeyboardButton(text="Cᴀɴᴄᴇʟ",callback_data="gfiltersdeleteallcancel")]
             ]),
             quote=True
         )
