@@ -249,13 +249,13 @@ Nᴀᴍᴇ - {}"""
 ========= • ✠ • =========</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {query}
+<b>Query: <code>{query}</code>
 IMDb Data:</b>
 
-🏷 <b>Tɪᴛʟᴇ:</b> <a href={url}>{title}</a>
-🎭 <b>Gᴇɴʀᴇs:</b> </code>{genres}</code> 
-📆 <b>Yᴇᴀʀ:</b> <a href={url}/releaseinfo>{year}</a>
-🌟 <b>Rᴀᴛɪɴɢ:</b> <a href={url}/ratings>{rating}</a> / 10
+🏷 <b>Tɪᴛʟᴇ:</b> <code>{title}</code>
+🎭 <b>Gᴇɴʀᴇs:</b> <code>{genres}</code> 
+📆 <b>Yᴇᴀʀ:</b> <code>{year}</code> 
+🌟 <b>Rᴀᴛɪɴɢ:</b> <code>{rating} / 10</code> 
 🎙️ <b>Lᴀɴɢᴜᴀɢᴇs:</b> <code>{languages}</code>
 🎭 <b>Cᴀsᴛ:</b> <code>{cast}</code>       
 🌐 <b>Cᴏᴜɴᴛʀɪᴇs:</b> <code>{countries}</code>
