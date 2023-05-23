@@ -249,7 +249,7 @@ Pʟᴇᴀꜱᴇ Cʜᴇᴄᴋ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oɴ Gᴏᴏɢʟᴇ Oʀ I�
 ========= • ✠ • =========</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b><code><u>{title}</u></code></b>
+<b><u>{title}</u></b>
 
 🏷 <b>Title:</b> <code>{title}</code>
 🎭 <b>Genres:</b> <code>{genres}</code> 
