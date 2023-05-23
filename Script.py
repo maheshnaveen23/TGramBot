@@ -249,8 +249,7 @@ Pʟᴇᴀꜱᴇ Cʜᴇᴄᴋ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oɴ Gᴏᴏɢʟᴇ Oʀ I�
 ========= • ✠ • =========</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: <code>{query}</code>
-IMDb Data:</b>
+<b><code><u>{title}</u></code></b>
 
 🏷 <b>Title:</b> <code>{title}</code>
 🎭 <b>Genres:</b> <code>{genres}</code> 
