@@ -12,8 +12,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,Hᴇʀᴇ Yᴏᴜ Cᴀɴ Aᴄ�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href="https://t.me/blvckangl">JᴏʏBᴏʏ</a>
-✯ Tʜᴀɴᴋs ᴛᴏ: <a href='https://t.me/DQ_The_File_Donor_Updates'> Jᴏᴇʟ Kᴜʀɪᴀɴ Bɪᴊᴜ</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href="https://t.me/Susil25sk">Sᴜsɪʟ Kᴜᴍᴀʀ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
@@ -21,9 +20,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- Mᴏᴅɪғɪᴇᴅ: <a href="https://t.me/blvckangl">JᴏʏBᴏʏ</a>
-- Dᴇᴠᴇʟᴏᴘᴇʀ:<a href="https://t.me/creatorbeatz">Jᴏᴇʟ ᠰ TɢX</a></b>"""
+- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+- Dᴇᴠᴇʟᴏᴘᴇʀ:<a href="https://t.me/Susil25sk">SᴜsɪʟᠰKᴜᴍᴀʀ</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -194,9 +192,9 @@ Pʟᴇᴀꜱᴇ Cʜᴇᴄᴋ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oɴ Gᴏᴏɢʟᴇ Oʀ I�
     OWNER_INFO = """
 <b>⍟───[ Oᴡɴᴇʀ Dᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : JᴏʏBᴏʏ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @blvckangl
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/blvckangl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Susil Kumar
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Susil25sk
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Susil25sk'>SᴜsɪʟᠰKᴜᴍᴀʀ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -244,8 +242,6 @@ Pʟᴇᴀꜱᴇ Cʜᴇᴄᴋ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oɴ Gᴏᴏɢʟᴇ Oʀ I�
 ╰─────── • ◆ • ───────╯
 ========= • ✠ • =========
 ▫️ Eɴᴊᴏʏ ᴛʜᴇ Fɪʟᴍꜱ Aɴᴅ Sᴇʀɪᴇꜱ..
-▫️ Bᴇғᴏʀᴇ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Aɴʏ Fɪʟᴇs 
-  Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏs..
 ========= • ✠ • =========</b>"""
 
     IMDB_TEMPLATE_TXT = """
