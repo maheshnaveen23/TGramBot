@@ -1174,23 +1174,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
-            text="● ◌ ◌"
-
-        )
-
-        await query.message.edit_text(
-
-            text="● ● ◌"
-
-        )
-
-        await query.message.edit_text(
-
-            text="● ● ●"
-
-        )
-        await query.message.edit_text(
             text=script.HOME_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -1211,23 +1194,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.chat.id, 
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-
-            text="● ◌ ◌"
-
-        )
-
-        await query.message.edit_text(
-
-            text="● ● ◌"
-
-        )
-
-        await query.message.edit_text(
-
-            text="● ● ●"
-
         )
         await query.message.edit_text(
             text=script.ALL_FILTERS.format(query.from_user.mention),
