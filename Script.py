@@ -14,6 +14,8 @@ class script(object):
     FEATURE_TXT = """<b>Hᴇʟʟᴏ {},
 ᴍʏ ɴᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>,ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇss ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs </b>"""
 
+    MOVIES_TXT = """HI"""
+    
     HELP_TXT = """<b>Hᴇʏ {}
 ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
     
