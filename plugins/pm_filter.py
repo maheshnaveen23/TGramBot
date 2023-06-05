@@ -72,7 +72,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Yᴏᴜ Nᴇᴇᴅ Tᴏ Rᴇǫᴜᴇsᴛ Tʜɪs Gʀᴏᴜᴘ @SRJ_TELEFLIX !</b>")
+    await message.reply_text("<b>ғᴏʀ ᴍᴏᴠɪᴇs sᴇᴀʀᴄʜ ʜᴇʀᴇ @RSK_MOVIEz !!!</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -242,14 +242,14 @@ async def next_page(bot, query):
             )
     btn.insert(0, [
         
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
+        InlineKeyboardButton("! ʟɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("🚀 Sᴇɴᴅ Aʟʟ Tᴏ PM ", callback_data=f"send_fall#files#{offset}#{req}"),
+        InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ ᴛᴏ ᴩM ", callback_data=f"send_fall#files#{offset}#{req}"),
         
     ])
     btn.insert(0, [
-        InlineKeyboardButton("🤖 Bᴏᴛ PM ", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("🤖 ʙᴏᴛ ᴩM ", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -265,7 +265,7 @@ async def language_check(bot, query):
     if int(userid) not in [query.from_user.id, 0]:
         return await query.answer(script.ALRT_TXT.format(query.from_user.first_name), show_alert=True)
     if language == "unknown":
-        return await query.answer("Sᴇʟᴇᴄᴛ ᴀɴʏ ʟᴀɴɢᴜᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs !", show_alert=True)
+        return await query.answer("sᴇʟᴇᴄᴛ ᴀɴʏ ʟᴀɴɢᴜᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs !", show_alert=True)
     movie = temp.KEYWORD.get(query.from_user.id)
     if not movie:
         return await query.answer(script.OLD_ALRT_TXT.format(query.from_user.first_name), show_alert=True)
@@ -358,15 +358,15 @@ async def language_check(bot, query):
         
         btn.insert(0, [
             
-            InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
+            InlineKeyboardButton("! ʟᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🚀 Sᴇɴᴅ Aʟʟ Tᴏ PM ", callback_data=f"send_fall#{pre}#{0}#{userid}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ ᴛᴏ ᴩM ", callback_data=f"send_fall#{pre}#{0}#{userid}"),
             
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("🤖 Bᴏᴛ PM ", url=f"https://t.me/{temp.U_NAME}")
+            InlineKeyboardButton("🤖 ʙᴏᴛ ᴩM ", url=f"https://t.me/{temp.U_NAME}")
         ])
 
         if offset != "":
@@ -400,7 +400,7 @@ async def language_check(bot, query):
             pass
         await query.answer()
     else:
-        return await query.answer(f"Sᴏʀʀʏ, Nᴏ ғɪʟᴇs ғᴏᴜɴᴅ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {movie}.", show_alert=True)
+        return await query.answer(f"sᴏʀʀʏ, ɴᴏ ғɪʟᴇs ғᴏᴜɴᴅ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {movie}.", show_alert=True)
     
 @Client.on_callback_query(filters.regex(r"^select_lang"))
 async def select_language(bot, query):
@@ -408,20 +408,20 @@ async def select_language(bot, query):
     if int(userid) not in [query.from_user.id, 0]:
         return await query.answer(script.ALRT_TXT.format(query.from_user.first_name), show_alert=True)
     btn = [[
-        InlineKeyboardButton("Sᴇʟᴇᴄᴛ Yᴏᴜʀ Dᴇꜱɪʀᴇᴅ Lᴀɴɢᴜᴀɢᴇ ↓", callback_data=f"lang#{userid}#unknown")
+        InlineKeyboardButton("sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ ↓", callback_data=f"lang#{userid}#unknown")
     ],[
-        InlineKeyboardButton("Eɴɢ", callback_data=f"lang#{userid}#eng"),
-        InlineKeyboardButton("Tᴀᴍ", callback_data=f"lang#{userid}#tam"),
-        InlineKeyboardButton("Hɪɴ", callback_data=f"lang#{userid}#hin")
+        InlineKeyboardButton("ᴇɴɢ", callback_data=f"lang#{userid}#eng"),
+        InlineKeyboardButton("ᴛᴀᴍ", callback_data=f"lang#{userid}#tam"),
+        InlineKeyboardButton("ʜɪɴ", callback_data=f"lang#{userid}#hin")
     ],[
-        InlineKeyboardButton("Kᴀɴ", callback_data=f"lang#{userid}#kan"),
-        InlineKeyboardButton("Tᴇʟ", callback_data=f"lang#{userid}#tel"),
-        InlineKeyboardButton("Mᴀʟ", callback_data=f"lang#{userid}#mal")
+        InlineKeyboardButton("ᴋᴀɴ", callback_data=f"lang#{userid}#kan"),
+        InlineKeyboardButton("ᴛᴇʟ", callback_data=f"lang#{userid}#tel"),
+        InlineKeyboardButton("ᴍᴀʟ", callback_data=f"lang#{userid}#mal")
     ],[
-        InlineKeyboardButton("Mᴜʟᴛɪ Aᴜᴅɪᴏ", callback_data=f"lang#{userid}#multi"),
-        InlineKeyboardButton("Dᴜᴀʟ Aᴜᴅɪᴏ", callback_data=f"lang#{userid}#dual")
+        InlineKeyboardButton("ᴍᴜʟᴛɪ ᴀᴜᴅɪᴏ", callback_data=f"lang#{userid}#multi"),
+        InlineKeyboardButton("ᴅᴜᴀʟ ᴀᴜᴅɪᴏ", callback_data=f"lang#{userid}#dual")
     ],[
-        InlineKeyboardButton("Gᴏ Bᴀᴄᴋ", callback_data=f"lang#{userid}#home")
+        InlineKeyboardButton("ɢᴏ ʙᴀᴄᴋ", callback_data=f"lang#{userid}#home")
     ]]
     try:
         await query.edit_message_reply_markup(
@@ -467,12 +467,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "gfiltersdeleteallconfirm":
         await del_allg(query.message, 'gfilters')
-        await query.answer("Dᴏɴᴇ !")
+        await query.answer("ᴅᴏɴᴇ !")
         return
     elif query.data == "gfiltersdeleteallcancel": 
         await query.message.reply_to_message.delete()
         await query.message.delete()
-        await query.answer("Pʀᴏᴄᴇss Cᴀɴᴄᴇʟʟᴇᴅ !")
+        await query.answer("ᴩʀᴏᴄᴇss ᴄᴀɴᴄᴇʟʟᴇᴅ !")
         return
     elif query.data == "delallconfirm":
         userid = query.from_user.id
