@@ -1637,7 +1637,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   text="● ● ◌"
             )
             await query.message.edit_text(
-                  text="● ● ●
+                  text="● ● ●"
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
