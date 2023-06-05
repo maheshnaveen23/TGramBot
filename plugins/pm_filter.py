@@ -1327,7 +1327,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "Susil":
         buttons = [[
-            InlineKeyboardButton('⟸ ʙᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('⟸ ʙᴀᴄᴋ', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id,
