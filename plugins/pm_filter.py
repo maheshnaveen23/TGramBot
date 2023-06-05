@@ -1228,8 +1228,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴜʀʟ_sʜᴏʀᴛ', callback_data='urlshort'),
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele')
         ], [
-            InlineKeyboardButton('ᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ', callback_data='start'),
-            InlineKeyboardButton('ᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ', callback_data='start'),
+            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
