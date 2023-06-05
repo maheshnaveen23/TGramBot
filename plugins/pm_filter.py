@@ -1151,7 +1151,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
         )
-         await query.message.edit_text(
+        await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -1196,21 +1196,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         await query.message.edit_text(
             text=script.ALL_FILTERS.format(query.from_user.mention),
@@ -1228,21 +1220,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1302,21 +1286,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1334,21 +1310,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1358,7 +1326,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url=GIT_LNK),
             InlineKeyboardButton('⟸ ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1368,21 +1335,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
@@ -1401,21 +1360,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         await query.message.edit_text(
             text=script.MANUELFILTER_TXT,
@@ -1432,21 +1383,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1464,21 +1407,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1496,21 +1431,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1528,21 +1455,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1561,21 +1480,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1594,21 +1505,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1627,21 +1530,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1671,21 +1566,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -1712,21 +1599,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-
             text="● ◌ ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ◌"
-
         )
-
         await query.message.edit_text(
-
             text="● ● ●"
-
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -1752,22 +1631,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InputMediaPhoto(random.choice(PICS))
             )
             await query.message.edit_text(
-
-            text="● ◌ ◌"
-
-        )
-
-        await query.message.edit_text(
-
-            text="● ● ◌"
-
-        )
-
-        await query.message.edit_text(
-
-            text="● ● ●"
-
-        )
+                  text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                  text="● ● ◌"
+            )
+            await query.message.edit_text(
+                  text="● ● ●
+            )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
                 text=(script.OWNER_INFO),
