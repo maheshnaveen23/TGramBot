@@ -1548,7 +1548,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer("ʏᴏᴜʀ ᴀʀᴇ ɴᴏᴛ ᴀ ᴀᴜᴛʜᴏʀɪᴢᴇʀ ⚠️", show_alert=True)
             
     elif query.data == "stats":
-        buttoelif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ', callback_data='rfrsh')
