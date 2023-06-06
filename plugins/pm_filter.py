@@ -1545,7 +1545,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ADMIN_TXT, enums.ParseMode.HTML), reply_markup=reply_markup)
         else:
-            await query.answer("ʏᴏᴜʀ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪᴢᴇʀ ⚠️", show_alert=True)
+            await query.answer("ʏᴏᴜʀ ᴀʀᴇ ɴᴏᴛ ᴀ ᴀᴜᴛʜᴏʀɪᴢᴇʀ ⚠️", show_alert=True)
             
     elif query.data == "stats":
         buttons = [[
@@ -1556,6 +1556,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.chat.id, 
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
+           )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
         users = await db.total_users_count()
