@@ -1548,15 +1548,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer("ʏᴏᴜʀ ᴀʀᴇ ɴᴏᴛ ᴀ ᴀᴜᴛʜᴏʀɪᴢᴇʀ ⚠️", show_alert=True)
             
     elif query.data == "stats":
+        buttoelif query.data == "stats":
         buttons = [[
-            InlineKeyboardButton('⟸ ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('⟲ ʀᴇғʀᴇsʜ', callback_data='rfrsh')
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ', callback_data='rfrsh')
         ]]
-       await client.edit_message_media(
+        await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
-           )
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
         users = await db.total_users_count()
